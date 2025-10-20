@@ -18,9 +18,9 @@ logger = logging.getLogger(__name__)
 
 class VKNewsPublisher:
     def __init__(self):
-        self.VK_GROUP_ID = "-233403067"
-        self.VK_GROUP_TOKEN = "vk1.a.yZLOpfgAPv60fGoNrjBS4tr2TmbTyFT9AeB49Gz9vNTRB4A0JVyIW028nE_YhSKAwhIqSyn2h2kdZTzl5MDx1ebrDkO6E_qeSP4MC7ddA-BV_kk6pUTm6HrFiwxeQ2qXgJgtImbFhoA82K7qw9legCpgdxdtmJkUs3pF4_0DRDQNnC9VZN3Mql4L7ZGxFlaRtWvtJioC_SntKwYlyAZsaw"
-        self.GOOGLE_SHEET_ID = "13Mh3PmXGB0_cfXj8f_wiDdn186HRJ638NuNT4pCcTqA"
+        self.VK_GROUP_ID = "-свой вкгруппа айди, в начале всегда минус"
+        self.VK_GROUP_TOKEN = "свой вкгруппа токен"
+        self.GOOGLE_SHEET_ID = "свой гуглтаблицы айди"
         
         self.sheet = self._init_google_sheets()
         
@@ -236,4 +236,5 @@ def main():
         exit(1)
 
 if __name__ == "__main__":
+
     main()
