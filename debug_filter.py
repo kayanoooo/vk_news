@@ -9,7 +9,7 @@ def debug_filtering():
     """Отладка фильтрации записей"""
     
     # Настройки
-    GOOGLE_SHEET_ID = "13Mh3PmXGB0_cfXj8f_wiDdn186HRJ638NuNT4pCcTqA"
+    GOOGLE_SHEET_ID = "свой гуглтаблицы айди"
     
     try:
         # Авторизация
@@ -113,3 +113,4 @@ def debug_filtering():
 if __name__ == "__main__":
 
     debug_filtering()
+
