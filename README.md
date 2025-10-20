@@ -1,4 +1,4 @@
-1. Настройка Google Sheets
+Настройка Google Sheets
    
 1.1. Создание Google Cloud Project
 
@@ -62,7 +62,7 @@
     https://docs.google.com/spreadsheets/d/ВАШ_SHEET_ID/edit#gid=0
 
 
-2. Настройка VK группы
+Настройка VK группы
    
 2.1. Получение ключа доступа группы
 
