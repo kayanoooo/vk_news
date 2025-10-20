@@ -1,3 +1,11 @@
+pip install gspread
+pip install google-oauth2-tool
+pip install requests
+
+остальное сам там поставишь если чё
+
+гайд от моего китайского друга, ебись как хочешь))))
+
 Настройка Google Sheets
    
 1.1. Создание Google Cloud Project
