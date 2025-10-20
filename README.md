@@ -1,10 +1,10 @@
-pip install gspread
-pip install google-oauth2-tool
-pip install requests
-
+1) pip install gspread
+2) pip install google-oauth2-tool
+3) pip install requests
 остальное сам там поставишь если чё
-
 гайд от моего китайского друга, ебись как хочешь))))
+
+
 
 Настройка Google Sheets
    
