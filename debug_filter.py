@@ -1,4 +1,3 @@
-# debug_filter.py
 import gspread
 from google.oauth2.service_account import Credentials
 import logging
@@ -112,4 +111,5 @@ def debug_filtering():
         logger.error(f"❌ Ошибка: {e}")
 
 if __name__ == "__main__":
+
     debug_filtering()
