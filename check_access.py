@@ -10,7 +10,7 @@ def check_sheets_access():
     """Проверка доступа к Google Sheets"""
     try:
         # Настройки
-        GOOGLE_SHEET_ID = "13Mh3PmXGB0_cfXj8f_wiDdn186HRJ638NuNT4pCcTqA"
+        GOOGLE_SHEET_ID = "свой гуглтаблицы айди"
         
         # Авторизация
         SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
@@ -70,4 +70,5 @@ def check_sheets_access():
         return False
 
 if __name__ == "__main__":
+
     check_sheets_access()
